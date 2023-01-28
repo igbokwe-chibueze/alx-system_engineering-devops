@@ -3,5 +3,5 @@
 count=1
 until [ $count -gt 10 ]; do
       echo "Best School"
-      let count=count+1
+      (( count++ ))
 done
