@@ -1,2 +1,2 @@
 #!/bin/bash
-head --lines=3 iacta | tail --lines=1
+head -n 3 5-firstlines.sh | tail -n 1
