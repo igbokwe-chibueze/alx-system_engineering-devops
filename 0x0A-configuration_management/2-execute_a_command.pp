@@ -1,4 +1,5 @@
 # script to kill process
-exec {'killmenow':
-  command => '/usr/bin/pkill -f killmenow'
-  }
+exec { 'pkill':
+  command => 'pkill -f killmenow',
+  path    => '/usr/bin'
+}
